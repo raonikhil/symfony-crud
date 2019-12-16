@@ -1,0 +1,13 @@
+index:
+  path: /
+  controller: App\Controller\ItemController::home
+
+get_items:
+  path: /items
+  controller: App\Controller\ItemController::index
+  methods: GET
+
+post_items:
+  path: /items
+  controller: App\Controller\ItemController::create
+  methods: POST
